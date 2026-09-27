@@ -1,0 +1,356 @@
+
+
+Subcircuit pins:
+Circuit 1: NAND2X1                         |Circuit 2: NAND2X1                         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes NAND2X1 and NAND2X1 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: INVX1                           |Circuit 2: INVX1                           
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes INVX1 and INVX1 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: OAI21X1                         |Circuit 2: OAI21X1                         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes OAI21X1 and OAI21X1 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: DFFSR                           |Circuit 2: DFFSR                           
+-------------------------------------------|-------------------------------------------
+Q                                          |Q                                          
+CLK                                        |CLK                                        
+R                                          |R                                          
+S                                          |S                                          
+D                                          |D                                          
+gnd                                        |gnd                                        
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes DFFSR and DFFSR are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: BUFX2                           |Circuit 2: BUFX2                           
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes BUFX2 and BUFX2 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: AND2X2                          |Circuit 2: AND2X2                          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes AND2X2 and AND2X2 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: NOR2X1                          |Circuit 2: NOR2X1                          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes NOR2X1 and NOR2X1 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: AOI22X1                         |Circuit 2: AOI22X1                         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+D                                          |D                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes AOI22X1 and AOI22X1 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: AOI21X1                         |Circuit 2: AOI21X1                         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes AOI21X1 and AOI21X1 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: CLKBUF1                         |Circuit 2: CLKBUF1                         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes CLKBUF1 and CLKBUF1 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: INVX4                           |Circuit 2: INVX4                           
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes INVX4 and INVX4 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: OR2X2                           |Circuit 2: OR2X2                           
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes OR2X2 and OR2X2 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: NAND3X1                         |Circuit 2: NAND3X1                         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes NAND3X1 and NAND3X1 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: INVX8                           |Circuit 2: INVX8                           
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes INVX8 and INVX8 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: NOR3X1                          |Circuit 2: NOR3X1                          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes NOR3X1 and NOR3X1 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: OAI22X1                         |Circuit 2: OAI22X1                         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+C                                          |C                                          
+D                                          |D                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes OAI22X1 and OAI22X1 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: MUX2X1                          |Circuit 2: MUX2X1                          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+B                                          |B                                          
+S                                          |S                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes MUX2X1 and MUX2X1 are equivalent.
+
+
+Subcircuit pins:
+Circuit 1: INVX2                           |Circuit 2: INVX2                           
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+gnd                                        |gnd                                        
+Y                                          |Y                                          
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes INVX2 and INVX2 are equivalent.
+
+Subcircuit summary:
+Circuit 1: apb_aes                         |Circuit 2: apb_aes                         
+-------------------------------------------|-------------------------------------------
+NAND2X1 (277)                              |NAND2X1 (277)                              
+INVX1 (396)                                |INVX1 (396)                                
+OAI21X1 (778)                              |OAI21X1 (778)                              
+DFFSR (391)                                |DFFSR (391)                                
+BUFX2 (232)                                |BUFX2 (232)                                
+AND2X2 (135)                               |AND2X2 (135)                               
+NOR2X1 (147)                               |NOR2X1 (147)                               
+AOI22X1 (60)                               |AOI22X1 (60)                               
+AOI21X1 (31)                               |AOI21X1 (31)                               
+CLKBUF1 (60)                               |CLKBUF1 (60)                               
+INVX4 (32)                                 |INVX4 (32)                                 
+OR2X2 (3)                                  |OR2X2 (3)                                  
+NAND3X1 (14)                               |NAND3X1 (14)                               
+INVX8 (4)                                  |INVX8 (4)                                  
+NOR3X1 (2)                                 |NOR3X1 (2)                                 
+OAI22X1 (1)                                |OAI22X1 (1)                                
+MUX2X1 (1)                                 |MUX2X1 (1)                                 
+INVX2 (1)                                  |INVX2 (1)                                  
+Number of devices: 2565                    |Number of devices: 2565                    
+Number of nets: 2612                       |Number of nets: 2612                       
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: apb_aes                         |Circuit 2: apb_aes                         
+-------------------------------------------|-------------------------------------------
+pslverr                                    |pslverr                                    
+penable                                    |penable                                    
+pready                                     |pready                                     
+prdata[1]                                  |prdata[1]                                  
+prdata[0]                                  |prdata[0]                                  
+prdata[14]                                 |prdata[14]                                 
+prdata[15]                                 |prdata[15]                                 
+prdata[17]                                 |prdata[17]                                 
+prdata[4]                                  |prdata[4]                                  
+prdata[18]                                 |prdata[18]                                 
+prdata[5]                                  |prdata[5]                                  
+prdata[19]                                 |prdata[19]                                 
+prdata[6]                                  |prdata[6]                                  
+prdata[2]                                  |prdata[2]                                  
+prdata[7]                                  |prdata[7]                                  
+prdata[20]                                 |prdata[20]                                 
+prdata[16]                                 |prdata[16]                                 
+prdata[8]                                  |prdata[8]                                  
+prdata[21]                                 |prdata[21]                                 
+prdata[9]                                  |prdata[9]                                  
+prdata[22]                                 |prdata[22]                                 
+prdata[23]                                 |prdata[23]                                 
+prdata[24]                                 |prdata[24]                                 
+prdata[25]                                 |prdata[25]                                 
+prdata[10]                                 |prdata[10]                                 
+prdata[26]                                 |prdata[26]                                 
+prdata[11]                                 |prdata[11]                                 
+prdata[27]                                 |prdata[27]                                 
+prdata[12]                                 |prdata[12]                                 
+prdata[28]                                 |prdata[28]                                 
+prdata[13]                                 |prdata[13]                                 
+prdata[29]                                 |prdata[29]                                 
+prdata[3]                                  |prdata[3]                                  
+prdata[30]                                 |prdata[30]                                 
+prdata[31]                                 |prdata[31]                                 
+paddr[5]                                   |paddr[5]                                   
+paddr[3]                                   |paddr[3]                                   
+paddr[2]                                   |paddr[2]                                   
+presetn                                    |presetn                                    
+pclk                                       |pclk                                       
+paddr[4]                                   |paddr[4]                                   
+vdd                                        |vdd                                        
+pwdata[0]                                  |pwdata[0]                                  
+psel                                       |psel                                       
+paddr[6]                                   |paddr[6]                                   
+paddr[7]                                   |paddr[7]                                   
+pwrite                                     |pwrite                                     
+pwdata[14]                                 |pwdata[14]                                 
+pwdata[12]                                 |pwdata[12]                                 
+pwdata[11]                                 |pwdata[11]                                 
+pwdata[30]                                 |pwdata[30]                                 
+pwdata[10]                                 |pwdata[10]                                 
+pwdata[9]                                  |pwdata[9]                                  
+pwdata[27]                                 |pwdata[27]                                 
+pwdata[8]                                  |pwdata[8]                                  
+pwdata[7]                                  |pwdata[7]                                  
+pwdata[5]                                  |pwdata[5]                                  
+pwdata[6]                                  |pwdata[6]                                  
+pwdata[2]                                  |pwdata[2]                                  
+pwdata[21]                                 |pwdata[21]                                 
+pwdata[4]                                  |pwdata[4]                                  
+pwdata[3]                                  |pwdata[3]                                  
+pwdata[18]                                 |pwdata[18]                                 
+pwdata[1]                                  |pwdata[1]                                  
+pwdata[15]                                 |pwdata[15]                                 
+pwdata[31]                                 |pwdata[31]                                 
+pwdata[28]                                 |pwdata[28]                                 
+pwdata[25]                                 |pwdata[25]                                 
+pwdata[22]                                 |pwdata[22]                                 
+pwdata[29]                                 |pwdata[29]                                 
+pwdata[19]                                 |pwdata[19]                                 
+pwdata[24]                                 |pwdata[24]                                 
+pwdata[16]                                 |pwdata[16]                                 
+pwdata[26]                                 |pwdata[26]                                 
+pwdata[13]                                 |pwdata[13]                                 
+pwdata[23]                                 |pwdata[23]                                 
+pwdata[20]                                 |pwdata[20]                                 
+pwdata[17]                                 |pwdata[17]                                 
+gnd                                        |gnd                                        
+paddr[0]                                   |paddr[0]                                   
+paddr[1]                                   |paddr[1]                                   
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes apb_aes and apb_aes are equivalent.
+
+Final result: Circuits match uniquely.
+.

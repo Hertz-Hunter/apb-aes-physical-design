@@ -1,0 +1,149 @@
+magic
+tech scmos
+timestamp 1790532087
+<< metal1 >>
+rect -2 97 98 103
+rect 2 54 6 94
+rect 10 55 14 97
+rect 24 77 28 94
+rect 18 74 28 77
+rect 38 74 42 97
+rect 46 74 50 94
+rect 54 74 58 97
+rect 67 74 73 94
+rect 46 71 49 74
+rect 27 67 31 71
+rect 35 68 53 71
+rect 35 67 39 68
+rect 49 67 53 68
+rect 41 60 45 61
+rect 22 57 45 60
+rect 54 60 59 61
+rect 69 60 73 61
+rect 54 57 73 60
+rect 54 54 57 57
+rect 82 54 86 97
+rect 21 52 57 54
+rect 6 51 57 52
+rect 90 51 94 94
+rect 6 50 25 51
+rect 2 49 25 50
+rect 73 48 94 51
+rect 73 47 77 48
+rect 34 46 38 47
+rect 14 43 38 46
+rect 81 44 85 45
+rect 14 42 18 43
+rect 70 41 85 44
+rect 6 34 26 37
+rect 30 34 64 37
+rect 6 33 14 34
+rect 20 27 24 34
+rect 60 33 64 34
+rect 90 31 94 48
+rect 75 28 94 31
+rect 75 27 79 28
+rect 2 6 6 26
+rect 10 3 14 26
+rect 21 23 25 27
+rect 35 22 39 23
+rect 35 19 49 22
+rect 46 16 49 19
+rect 18 13 28 16
+rect 24 6 28 13
+rect 37 3 42 16
+rect 46 6 50 16
+rect 54 3 58 16
+rect 66 13 73 16
+rect 67 6 73 13
+rect 82 3 86 25
+rect 90 6 94 28
+rect -2 -3 98 3
+<< m2contact >>
+rect 18 70 22 74
+rect 66 70 70 74
+rect 26 63 30 67
+rect 18 57 22 61
+rect 2 50 6 54
+rect 66 40 70 44
+rect 26 34 30 38
+rect 2 26 6 30
+rect 18 16 22 20
+rect 66 16 70 20
+<< metal2 >>
+rect 18 61 22 70
+rect 18 54 22 57
+rect 2 30 6 50
+rect 18 50 21 54
+rect 18 20 22 50
+rect 26 38 30 63
+rect 66 61 70 70
+rect 66 57 69 61
+rect 66 44 70 57
+rect 66 20 70 40
+<< labels >>
+rlabel metal1 s 75 27 79 31 6 Q
+port 1 nsew default output
+rlabel metal1 s 75 28 94 31 6 Q
+port 1 nsew default output
+rlabel metal1 s 73 48 94 51 6 Q
+port 1 nsew default output
+rlabel metal1 s 90 6 94 94 6 Q
+port 1 nsew default output
+rlabel metal1 s 73 47 77 51 6 Q
+port 1 nsew default output
+rlabel metal1 s 27 67 31 71 6 CLK
+port 2 nsew default input
+rlabel metal1 s 6 33 14 37 6 CLK
+port 2 nsew default input
+rlabel metal1 s 20 27 24 37 6 CLK
+port 2 nsew default input
+rlabel metal1 s 21 23 25 27 6 CLK
+port 2 nsew default input
+rlabel metal1 s 26 34 30 38 6 CLK
+port 2 nsew default input
+rlabel metal1 s 60 33 64 37 6 CLK
+port 2 nsew default input
+rlabel metal1 s 6 34 64 37 6 CLK
+port 2 nsew default input
+rlabel metal1 s 26 63 30 67 6 CLK
+port 2 nsew default input
+rlabel m2contact s 26 34 30 38 6 CLK
+port 2 nsew default input
+rlabel m2contact s 26 63 30 67 6 CLK
+port 2 nsew default input
+rlabel metal2 s 26 34 30 67 6 CLK
+port 2 nsew default input
+rlabel metal1 s 14 43 38 46 6 D
+port 3 nsew default input
+rlabel metal1 s 34 43 38 47 6 D
+port 3 nsew default input
+rlabel metal1 s 14 42 18 46 6 D
+port 3 nsew default input
+rlabel metal1 s 37 -3 42 16 6 gnd
+port 4 nsew ground bidirectional abutment
+rlabel metal1 s 54 -3 58 16 6 gnd
+port 4 nsew ground bidirectional abutment
+rlabel metal1 s 82 -3 86 25 6 gnd
+port 4 nsew ground bidirectional abutment
+rlabel metal1 s -2 -3 98 3 8 gnd
+port 4 nsew ground bidirectional abutment
+rlabel metal1 s 10 -3 14 26 6 gnd
+port 4 nsew ground bidirectional abutment
+rlabel metal1 s 38 74 42 103 6 vdd
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 54 74 58 103 6 vdd
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 82 54 86 103 6 vdd
+port 5 nsew power bidirectional abutment
+rlabel metal1 s -2 97 98 103 6 vdd
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 10 55 14 103 6 vdd
+port 5 nsew power bidirectional abutment
+<< properties >>
+string LEFsite core
+string LEFclass CORE
+string FIXED_BBOX 0 0 96 100
+string LEFsymmetry X Y
+string LEFview TRUE
+<< end >>

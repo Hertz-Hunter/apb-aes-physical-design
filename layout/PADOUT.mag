@@ -1,0 +1,58 @@
+magic
+tech scmos
+timestamp 1790532087
+<< metal1 >>
+rect 30 1497 420 1500
+rect 3 1010 447 1497
+rect 0 521 450 1010
+rect 3 489 447 521
+rect 0 0 450 489
+<< metal2 >>
+rect 30 1497 420 1500
+rect 3 1010 447 1497
+rect 0 648 450 1010
+rect 3 626 447 648
+rect 0 521 450 626
+rect 3 489 447 521
+rect 0 384 450 489
+rect 3 362 447 384
+rect 0 7 450 362
+rect 0 3 34 7
+rect 0 0 7 3
+rect 11 0 20 3
+rect 24 0 34 3
+rect 51 3 450 7
+rect 38 0 47 2
+rect 51 0 172 3
+rect 177 0 273 3
+rect 278 0 391 3
+rect 395 0 404 3
+rect 408 0 417 3
+rect 421 0 450 3
+rect 41 -2 45 0
+<< metal3 >>
+rect 3 7 447 1497
+rect 3 3 33 7
+rect 52 3 447 7
+<< metal4 >>
+rect 3 1495 202 1497
+rect 231 1495 447 1497
+rect 3 1351 447 1495
+rect 3 1321 202 1351
+rect 211 1330 222 1342
+rect 231 1321 447 1351
+rect 3 3 447 1321
+<< labels >>
+rlabel metal4 s 211 1330 222 1342 6 YPAD
+port 1 nsew default output
+rlabel metal2 s 38 0 47 2 6 DO
+port 2 nsew default input
+rlabel metal2 s 41 -2 45 2 8 DO
+port 2 nsew default input
+<< properties >>
+string LEFsite IO
+string LEFclass PAD
+string FIXED_BBOX 0 0 450 1500
+string LEFsymmetry R90
+string LEFview TRUE
+<< end >>

@@ -1,0 +1,225 @@
+Vesta static timing analysis, pin-to-register and register-to-pin maximum timing
+
+Top 20 maximum delay paths:
+Path input pin paddr[5] to output pin prdata[6] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert68/A
+   1341.3 ps  _1790__bF$buf0: BUFX2_insert68/Y ->         _1919_/D
+   1482.4 ps          _1801_:         _1919_/Y ->         _1920_/A
+   1590.9 ps       _1850_[6]:         _1920_/Y ->         _4152_/A
+   1720.3 ps       prdata[6]:         _4152_/Y -> prdata[6]
+
+Path input pin paddr[5] to output pin prdata[3] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert68/A
+   1341.3 ps  _1790__bF$buf0: BUFX2_insert68/Y ->         _1910_/D
+   1482.4 ps          _1795_:         _1910_/Y ->         _1911_/A
+   1590.9 ps       _1850_[3]:         _1911_/Y ->         _4147_/A
+   1720.3 ps       prdata[3]:         _4147_/Y -> prdata[3]
+
+Path input pin paddr[5] to output pin prdata[27] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert68/A
+   1341.3 ps  _1790__bF$buf0: BUFX2_insert68/Y ->         _1982_/D
+   1482.4 ps          _1843_:         _1982_/Y ->         _1983_/A
+   1590.9 ps      _1850_[27]:         _1983_/Y ->         _4144_/A
+   1720.3 ps      prdata[27]:         _4144_/Y -> prdata[27]
+
+Path input pin paddr[5] to output pin prdata[19] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert68/A
+   1341.3 ps  _1790__bF$buf0: BUFX2_insert68/Y ->         _1958_/D
+   1482.4 ps          _1827_:         _1958_/Y ->         _1959_/A
+   1590.9 ps      _1850_[19]:         _1959_/Y ->         _4135_/A
+   1720.3 ps      prdata[19]:         _4135_/Y -> prdata[19]
+
+Path input pin paddr[5] to output pin prdata[18] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert68/A
+   1341.3 ps  _1790__bF$buf0: BUFX2_insert68/Y ->         _1955_/D
+   1482.4 ps          _1825_:         _1955_/Y ->         _1956_/A
+   1590.9 ps      _1850_[18]:         _1956_/Y ->         _4134_/A
+   1720.3 ps      prdata[18]:         _4134_/Y -> prdata[18]
+
+Path input pin paddr[5] to output pin prdata[11] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert65/A
+   1341.3 ps  _1790__bF$buf3: BUFX2_insert65/Y ->         _1934_/D
+   1482.4 ps          _1811_:         _1934_/Y ->         _1935_/A
+   1590.9 ps      _1850_[11]:         _1935_/Y ->         _4127_/A
+   1720.3 ps      prdata[11]:         _4127_/Y -> prdata[11]
+
+Path input pin paddr[5] to output pin prdata[25] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert64/A
+   1341.3 ps  _1790__bF$buf4: BUFX2_insert64/Y ->         _1976_/D
+   1482.4 ps          _1839_:         _1976_/Y ->         _1977_/A
+   1590.9 ps      _1850_[25]:         _1977_/Y ->         _4142_/A
+   1720.3 ps      prdata[25]:         _4142_/Y -> prdata[25]
+
+Path input pin paddr[5] to output pin prdata[23] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert64/A
+   1341.3 ps  _1790__bF$buf4: BUFX2_insert64/Y ->         _1970_/D
+   1482.4 ps          _1835_:         _1970_/Y ->         _1971_/A
+   1590.9 ps      _1850_[23]:         _1971_/Y ->         _4140_/A
+   1720.3 ps      prdata[23]:         _4140_/Y -> prdata[23]
+
+Path input pin paddr[5] to output pin prdata[22] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert66/A
+   1341.3 ps  _1790__bF$buf2: BUFX2_insert66/Y ->         _1967_/D
+   1482.4 ps          _1833_:         _1967_/Y ->         _1968_/A
+   1590.9 ps      _1850_[22]:         _1968_/Y ->         _4139_/A
+   1720.3 ps      prdata[22]:         _4139_/Y -> prdata[22]
+
+Path input pin paddr[5] to output pin prdata[16] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert64/A
+   1341.3 ps  _1790__bF$buf4: BUFX2_insert64/Y ->         _1949_/D
+   1482.4 ps          _1821_:         _1949_/Y ->         _1950_/A
+   1590.9 ps      _1850_[16]:         _1950_/Y ->         _4132_/A
+   1720.3 ps      prdata[16]:         _4132_/Y -> prdata[16]
+
+Path input pin paddr[5] to output pin prdata[15] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert65/A
+   1341.3 ps  _1790__bF$buf3: BUFX2_insert65/Y ->         _1946_/D
+   1482.4 ps          _1819_:         _1946_/Y ->         _1947_/A
+   1590.9 ps      _1850_[15]:         _1947_/Y ->         _4131_/A
+   1720.3 ps      prdata[15]:         _4131_/Y -> prdata[15]
+
+Path input pin paddr[5] to output pin prdata[10] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert66/A
+   1341.3 ps  _1790__bF$buf2: BUFX2_insert66/Y ->         _1931_/D
+   1482.4 ps          _1809_:         _1931_/Y ->         _1932_/A
+   1590.9 ps      _1850_[10]:         _1932_/Y ->         _4126_/A
+   1720.3 ps      prdata[10]:         _4126_/Y -> prdata[10]
+
+Path input pin paddr[5] to output pin prdata[4] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert67/A
+   1341.3 ps  _1790__bF$buf1: BUFX2_insert67/Y ->         _1913_/D
+   1482.4 ps          _1797_:         _1913_/Y ->         _1914_/A
+   1590.9 ps       _1850_[4]:         _1914_/Y ->         _4150_/A
+   1720.3 ps       prdata[4]:         _4150_/Y -> prdata[4]
+
+Path input pin paddr[5] to output pin prdata[29] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert67/A
+   1341.3 ps  _1790__bF$buf1: BUFX2_insert67/Y ->         _1988_/D
+   1482.4 ps          _1847_:         _1988_/Y ->         _1989_/A
+   1590.9 ps      _1850_[29]:         _1989_/Y ->         _4146_/A
+   1720.3 ps      prdata[29]:         _4146_/Y -> prdata[29]
+
+Path input pin paddr[5] to output pin prdata[28] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert67/A
+   1341.3 ps  _1790__bF$buf1: BUFX2_insert67/Y ->         _1985_/D
+   1482.4 ps          _1845_:         _1985_/Y ->         _1986_/A
+   1590.9 ps      _1850_[28]:         _1986_/Y ->         _4145_/A
+   1720.3 ps      prdata[28]:         _4145_/Y -> prdata[28]
+
+Path input pin paddr[5] to output pin prdata[21] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert67/A
+   1341.3 ps  _1790__bF$buf1: BUFX2_insert67/Y ->         _1964_/D
+   1482.4 ps          _1831_:         _1964_/Y ->         _1965_/A
+   1590.9 ps      _1850_[21]:         _1965_/Y ->         _4138_/A
+   1720.3 ps      prdata[21]:         _4138_/Y -> prdata[21]
+
+Path input pin paddr[5] to output pin prdata[20] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert67/A
+   1341.3 ps  _1790__bF$buf1: BUFX2_insert67/Y ->         _1961_/D
+   1482.4 ps          _1829_:         _1961_/Y ->         _1962_/A
+   1590.9 ps      _1850_[20]:         _1962_/Y ->         _4137_/A
+   1720.3 ps      prdata[20]:         _4137_/Y -> prdata[20]
+
+Path input pin paddr[5] to output pin prdata[12] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert67/A
+   1341.3 ps  _1790__bF$buf1: BUFX2_insert67/Y ->         _1937_/D
+   1482.4 ps          _1813_:         _1937_/Y ->         _1938_/A
+   1590.9 ps      _1850_[12]:         _1938_/Y ->         _4128_/A
+   1720.3 ps      prdata[12]:         _4128_/Y -> prdata[12]
+
+Path input pin paddr[5] to output pin prdata[7] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert64/A
+   1341.3 ps  _1790__bF$buf4: BUFX2_insert64/Y ->         _1922_/D
+   1482.4 ps          _1803_:         _1922_/Y ->         _1923_/A
+   1590.9 ps       _1850_[7]:         _1923_/Y ->         _4153_/A
+   1720.3 ps       prdata[7]:         _4153_/Y -> prdata[7]
+
+Path input pin paddr[5] to output pin prdata[5] delay 1720.29 ps
+      0.0 ps        paddr[5]:                  ->         _1865_/A
+     97.4 ps          _1753_:         _1865_/Y ->         _1866_/C
+    469.8 ps          _1754_:         _1866_/Y ->         _1867_/A
+    943.4 ps          _1755_:         _1867_/Y ->         _1904_/A
+   1054.0 ps          _1790_:         _1904_/Y -> BUFX2_insert66/A
+   1341.3 ps  _1790__bF$buf2: BUFX2_insert66/Y ->         _1916_/D
+   1482.4 ps          _1799_:         _1916_/Y ->         _1917_/A
+   1590.9 ps       _1850_[5]:         _1917_/Y ->         _4151_/A
+   1720.3 ps       prdata[5]:         _4151_/Y -> prdata[5]
+
+-----------------------------------------
+

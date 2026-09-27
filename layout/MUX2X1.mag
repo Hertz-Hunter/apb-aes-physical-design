@@ -1,0 +1,68 @@
+magic
+tech scmos
+timestamp 1790532087
+<< metal1 >>
+rect -2 97 50 103
+rect 2 70 6 90
+rect 2 53 5 70
+rect 10 56 14 97
+rect 23 59 27 94
+rect 23 56 31 59
+rect 2 50 21 53
+rect 2 39 6 47
+rect 10 39 14 47
+rect 18 40 21 50
+rect 18 36 25 40
+rect 28 37 31 56
+rect 36 54 40 97
+rect 34 43 38 51
+rect 18 34 23 36
+rect 2 31 23 34
+rect 28 33 38 37
+rect 2 20 5 31
+rect 28 30 31 33
+rect 27 28 31 30
+rect 2 10 6 20
+rect 10 3 14 28
+rect 23 25 31 28
+rect 23 10 27 25
+rect 36 3 40 30
+rect -2 -3 50 3
+<< labels >>
+rlabel metal1 s 34 43 38 51 6 A
+port 1 nsew default input
+rlabel metal1 s 10 39 14 47 6 B
+port 2 nsew default input
+rlabel metal1 s 2 39 6 47 6 S
+port 3 nsew default input
+rlabel metal1 s 36 -3 40 30 6 gnd
+port 4 nsew ground bidirectional abutment
+rlabel metal1 s -2 -3 50 3 8 gnd
+port 4 nsew ground bidirectional abutment
+rlabel metal1 s 10 -3 14 28 6 gnd
+port 4 nsew ground bidirectional abutment
+rlabel metal1 s 23 56 27 94 6 Y
+port 5 nsew default output
+rlabel metal1 s 27 25 31 30 6 Y
+port 5 nsew default output
+rlabel metal1 s 28 25 31 59 6 Y
+port 5 nsew default output
+rlabel metal1 s 23 56 31 59 6 Y
+port 5 nsew default output
+rlabel metal1 s 28 33 38 37 6 Y
+port 5 nsew default output
+rlabel metal1 s 23 10 27 28 6 Y
+port 5 nsew default output
+rlabel metal1 s 36 54 40 103 6 vdd
+port 6 nsew power bidirectional abutment
+rlabel metal1 s -2 97 50 103 6 vdd
+port 6 nsew power bidirectional abutment
+rlabel metal1 s 10 56 14 103 6 vdd
+port 6 nsew power bidirectional abutment
+<< properties >>
+string LEFsite core
+string LEFclass CORE
+string FIXED_BBOX 0 0 48 100
+string LEFsymmetry X Y
+string LEFview TRUE
+<< end >>

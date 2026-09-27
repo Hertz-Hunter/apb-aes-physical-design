@@ -1,0 +1,62 @@
+Qflow migration logfile created on Sun Sep 27 05:11:13 PM UTC 2026
+magic -dnull -noconsole  migrate_apb_aes.tcl
+
+Magic 8.3 revision 105 - Compiled on Mon, 06 Dec 2021 22:32:27 +0200.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Input style lambda=0.20(p): scaleFactor=20, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+4 Magic internal units = 1 Lambda
+Loading "migrate_apb_aes.tcl" from command line.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:    0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
+lambda:     0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
+internal:      0 x 0       (     0,  0    ), (     0,  0    )
+Reading LEF data from file /usr/local/share/qflow/tech/osu035/osu035_stdcells.lef.
+This action cannot be undone.
+LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
+LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
+LEF read: Processed 3179 lines.
+Reading DEF data from file apb_aes.def.
+This action cannot be undone.
+  Processed 3 vias total.
+  Processed 3238 subcell instances total.
+  Processed 81 pins total.
+  Processed 2612 nets total.
+  Processed 338 special nets total.
+DEF read: Processed 37209 lines.
+Generating LEF output apb_aes.lef for cell apb_aes:
+Diagnostic:  Write LEF header for cell apb_aes
+Diagnostic:  Writing LEF output for cell apb_aes
+Diagnostic:  Scale value is 0.050000
+Extracting NOR3X1 into NOR3X1.ext:
+Extracting NAND3X1 into NAND3X1.ext:
+Extracting INVX8 into INVX8.ext:
+Extracting AOI22X1 into AOI22X1.ext:
+Extracting INVX2 into INVX2.ext:
+Extracting AOI21X1 into AOI21X1.ext:
+Extracting AND2X2 into AND2X2.ext:
+Extracting CLKBUF1 into CLKBUF1.ext:
+Extracting FILL into FILL.ext:
+Extracting OAI21X1 into OAI21X1.ext:
+Extracting NAND2X1 into NAND2X1.ext:
+Extracting MUX2X1 into MUX2X1.ext:
+Extracting BUFX2 into BUFX2.ext:
+Extracting INVX4 into INVX4.ext:
+Extracting OAI22X1 into OAI22X1.ext:
+Extracting NOR2X1 into NOR2X1.ext:
+Extracting OR2X2 into OR2X2.ext:
+Extracting INVX1 into INVX1.ext:
+Extracting DFFSR into DFFSR.ext:
+Extracting apb_aes into apb_aes.ext:
+exttospice finished.
+Migration script ended on Sun Sep 27 05:11:21 PM UTC 2026

@@ -1,0 +1,186 @@
+Vesta static timing analysis, register-to-register minimum timing
+
+Top 20 minimum delay paths:
+Path _3962_/CLK to _3962_/D delay 133.878 ps
+      0.0 ps  pclk_bF$buf40: CLKBUF1_insert155/Y -> _3962_/CLK
+      0.0 ps           done:            _3962_/Q -> _3403_/C
+     63.5 ps         _1571_:            _3403_/Y -> _3404_/C
+    127.4 ps          _230_:            _3404_/Y -> _3962_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.43211
+
+Path _3823_/CLK to _3823_/D delay 141.064 ps
+      0.0 ps    pclk_bF$buf24: CLKBUF1_insert171/Y -> _3823_/CLK
+      0.0 ps  data_in_reg[26]:            _3823_/Q -> _2223_/A
+     70.6 ps            _529_:            _2223_/Y -> _2224_/C
+    134.1 ps             _92_:            _2224_/Y -> _3823_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _3752_/CLK to _3752_/D delay 141.064 ps
+      0.0 ps  pclk_bF$buf24: CLKBUF1_insert171/Y -> _3752_/CLK
+      0.0 ps    key_reg[19]:            _3752_/Q -> _2064_/A
+     70.6 ps          _441_:            _2064_/Y -> _2065_/C
+    134.1 ps           _21_:            _2065_/Y -> _3752_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _3805_/CLK to _3805_/D delay 141.064 ps
+      0.0 ps   pclk_bF$buf24: CLKBUF1_insert171/Y -> _3805_/CLK
+      0.0 ps  data_in_reg[8]:            _3805_/Q -> _2187_/A
+     70.6 ps           _511_:            _2187_/Y -> _2188_/C
+    134.1 ps            _74_:            _2188_/Y -> _3805_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _4030_/CLK to _4030_/D delay 141.064 ps
+      0.0 ps    pclk_bF$buf24: CLKBUF1_insert171/Y -> _4030_/CLK
+      0.0 ps  data_in_reg[66]:            _4030_/Q -> _3541_/A
+     70.6 ps           _1642_:            _3541_/Y -> _3542_/C
+    134.1 ps            _297_:            _3542_/Y -> _4030_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _3767_/CLK to _3767_/D delay 141.064 ps
+      0.0 ps  pclk_bF$buf24: CLKBUF1_insert171/Y -> _3767_/CLK
+      0.0 ps    key_reg[34]:            _3767_/Q -> _2108_/A
+     70.6 ps          _470_:            _2108_/Y -> _2109_/C
+    134.1 ps           _36_:            _2109_/Y -> _3767_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _3998_/CLK to _3998_/D delay 141.064 ps
+      0.0 ps     pclk_bF$buf2: CLKBUF1_insert193/Y -> _3998_/CLK
+      0.0 ps  data_in_reg[34]:            _3998_/Q -> _3476_/A
+     70.6 ps           _1609_:            _3476_/Y -> _3477_/C
+    134.1 ps            _265_:            _3477_/Y -> _3998_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _4022_/CLK to _4022_/D delay 141.064 ps
+      0.0 ps     pclk_bF$buf2: CLKBUF1_insert193/Y -> _4022_/CLK
+      0.0 ps  data_in_reg[58]:            _4022_/Q -> _3524_/A
+     70.6 ps           _1633_:            _3524_/Y -> _3525_/C
+    134.1 ps            _289_:            _3525_/Y -> _4022_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _3971_/CLK to _3971_/D delay 141.064 ps
+      0.0 ps  pclk_bF$buf2: CLKBUF1_insert193/Y -> _3971_/CLK
+      0.0 ps   key_reg[72]:            _3971_/Q -> _3423_/A
+     70.6 ps        _1582_:            _3423_/Y -> _3424_/C
+    134.1 ps         _239_:            _3424_/Y -> _3971_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _3965_/CLK to _3965_/D delay 141.064 ps
+      0.0 ps  pclk_bF$buf2: CLKBUF1_insert193/Y -> _3965_/CLK
+      0.0 ps   key_reg[66]:            _3965_/Q -> _3411_/A
+     70.6 ps        _1576_:            _3411_/Y -> _3412_/C
+    134.1 ps         _233_:            _3412_/Y -> _3965_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _3765_/CLK to _3765_/D delay 141.064 ps
+      0.0 ps  pclk_bF$buf2: CLKBUF1_insert193/Y -> _3765_/CLK
+      0.0 ps   key_reg[32]:            _3765_/Q -> _2104_/A
+     70.6 ps         _468_:            _2104_/Y -> _2105_/C
+    134.1 ps          _34_:            _2105_/Y -> _3765_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _3996_/CLK to _3996_/D delay 141.064 ps
+      0.0 ps     pclk_bF$buf2: CLKBUF1_insert193/Y -> _3996_/CLK
+      0.0 ps  data_in_reg[32]:            _3996_/Q -> _3472_/A
+     70.6 ps           _1607_:            _3472_/Y -> _3473_/C
+    134.1 ps            _263_:            _3473_/Y -> _3996_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _4114_/CLK to _4114_/D delay 141.064 ps
+      0.0 ps  pclk_bF$buf18: CLKBUF1_insert177/Y -> _4114_/CLK
+      0.0 ps   key_reg[118]:            _4114_/Q -> _3713_/A
+     70.6 ps         _1730_:            _3713_/Y -> _3714_/C
+    134.1 ps          _381_:            _3714_/Y -> _4114_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _4046_/CLK to _4046_/D delay 141.064 ps
+      0.0 ps    pclk_bF$buf18: CLKBUF1_insert177/Y -> _4046_/CLK
+      0.0 ps  data_in_reg[82]:            _4046_/Q -> _3573_/A
+     70.6 ps           _1658_:            _3573_/Y -> _3574_/C
+    134.1 ps            _313_:            _3574_/Y -> _4046_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _4035_/CLK to _4035_/D delay 141.064 ps
+      0.0 ps    pclk_bF$buf23: CLKBUF1_insert172/Y -> _4035_/CLK
+      0.0 ps  data_in_reg[71]:            _4035_/Q -> _3551_/A
+     70.6 ps           _1647_:            _3551_/Y -> _3552_/C
+    134.1 ps            _302_:            _3552_/Y -> _4035_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _3822_/CLK to _3822_/D delay 141.064 ps
+      0.0 ps    pclk_bF$buf23: CLKBUF1_insert172/Y -> _3822_/CLK
+      0.0 ps  data_in_reg[25]:            _3822_/Q -> _2221_/A
+     70.6 ps            _528_:            _2221_/Y -> _2222_/C
+    134.1 ps             _91_:            _2222_/Y -> _3822_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _3804_/CLK to _3804_/D delay 141.064 ps
+      0.0 ps   pclk_bF$buf23: CLKBUF1_insert172/Y -> _3804_/CLK
+      0.0 ps  data_in_reg[7]:            _3804_/Q -> _2185_/A
+     70.6 ps           _510_:            _2185_/Y -> _2186_/C
+    134.1 ps            _73_:            _2186_/Y -> _3804_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _4045_/CLK to _4045_/D delay 141.064 ps
+      0.0 ps    pclk_bF$buf23: CLKBUF1_insert172/Y -> _4045_/CLK
+      0.0 ps  data_in_reg[81]:            _4045_/Q -> _3571_/A
+     70.6 ps           _1657_:            _3571_/Y -> _3572_/C
+    134.1 ps            _312_:            _3572_/Y -> _4045_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _3970_/CLK to _3970_/D delay 141.064 ps
+      0.0 ps  pclk_bF$buf23: CLKBUF1_insert172/Y -> _3970_/CLK
+      0.0 ps    key_reg[71]:            _3970_/Q -> _3421_/A
+     70.6 ps         _1581_:            _3421_/Y -> _3422_/C
+    134.1 ps          _238_:            _3422_/Y -> _3970_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Path _4116_/CLK to _4116_/D delay 141.064 ps
+      0.0 ps  pclk_bF$buf38: CLKBUF1_insert157/Y -> _4116_/CLK
+      0.0 ps   key_reg[120]:            _4116_/Q -> _3717_/A
+     70.6 ps         _1732_:            _3717_/Y -> _3718_/C
+    134.1 ps          _383_:            _3718_/Y -> _4116_/D
+
+   clock skew at destination = 0
+   hold at destination = 6.9532
+
+Design meets minimum hold timing.
+-----------------------------------------
+

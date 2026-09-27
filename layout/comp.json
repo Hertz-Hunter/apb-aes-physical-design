@@ -1,0 +1,540 @@
+[
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Q",
+        "CLK",
+        "R",
+        "S",
+        "D",
+        "gnd",
+        "vdd"
+      ], [
+        "Q",
+        "CLK",
+        "R",
+        "S",
+        "D",
+        "gnd",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "D",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "D",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "D",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "D",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "S",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "S",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "apb_aes",
+      "apb_aes"
+   ],
+   "devices": [
+       [
+         ["NAND2X1", 277],
+         ["INVX1", 396],
+         ["OAI21X1", 778],
+         ["DFFSR", 391],
+         ["BUFX2", 232],
+         ["AND2X2", 135],
+         ["NOR2X1", 147],
+         ["AOI22X1", 60],
+         ["AOI21X1", 31],
+         ["CLKBUF1", 60],
+         ["INVX4", 32],
+         ["OR2X2", 3],
+         ["NAND3X1", 14],
+         ["INVX8", 4],
+         ["NOR3X1", 2],
+         ["OAI22X1", 1],
+         ["MUX2X1", 1],
+         ["INVX2", 1 ]
+       ], [
+         ["NAND2X1", 277 ],
+         ["INVX1", 396 ],
+         ["OAI21X1", 778 ],
+         ["DFFSR", 391 ],
+         ["BUFX2", 232 ],
+         ["AND2X2", 135 ],
+         ["NOR2X1", 147 ],
+         ["AOI22X1", 60 ],
+         ["AOI21X1", 31 ],
+         ["CLKBUF1", 60 ],
+         ["INVX4", 32 ],
+         ["OR2X2", 3 ],
+         ["NAND3X1", 14 ],
+         ["INVX8", 4 ],
+         ["NOR3X1", 2 ],
+         ["OAI22X1", 1 ],
+         ["MUX2X1", 1 ],
+         ["INVX2", 1 ]
+       ]
+   ],
+   "nets": [
+    2612,
+    2612
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "pslverr",
+        "penable",
+        "pready",
+        "prdata[1]",
+        "prdata[0]",
+        "prdata[14]",
+        "prdata[15]",
+        "prdata[17]",
+        "prdata[4]",
+        "prdata[18]",
+        "prdata[5]",
+        "prdata[19]",
+        "prdata[6]",
+        "prdata[2]",
+        "prdata[7]",
+        "prdata[20]",
+        "prdata[16]",
+        "prdata[8]",
+        "prdata[21]",
+        "prdata[9]",
+        "prdata[22]",
+        "prdata[23]",
+        "prdata[24]",
+        "prdata[25]",
+        "prdata[10]",
+        "prdata[26]",
+        "prdata[11]",
+        "prdata[27]",
+        "prdata[12]",
+        "prdata[28]",
+        "prdata[13]",
+        "prdata[29]",
+        "prdata[3]",
+        "prdata[30]",
+        "prdata[31]",
+        "paddr[5]",
+        "paddr[3]",
+        "paddr[2]",
+        "presetn",
+        "pclk",
+        "paddr[4]",
+        "vdd",
+        "pwdata[0]",
+        "psel",
+        "paddr[6]",
+        "paddr[7]",
+        "pwrite",
+        "pwdata[14]",
+        "pwdata[12]",
+        "pwdata[11]",
+        "pwdata[30]",
+        "pwdata[10]",
+        "pwdata[9]",
+        "pwdata[27]",
+        "pwdata[8]",
+        "pwdata[7]",
+        "pwdata[5]",
+        "pwdata[6]",
+        "pwdata[2]",
+        "pwdata[21]",
+        "pwdata[4]",
+        "pwdata[3]",
+        "pwdata[18]",
+        "pwdata[1]",
+        "pwdata[15]",
+        "pwdata[31]",
+        "pwdata[28]",
+        "pwdata[25]",
+        "pwdata[22]",
+        "pwdata[29]",
+        "pwdata[19]",
+        "pwdata[24]",
+        "pwdata[16]",
+        "pwdata[26]",
+        "pwdata[13]",
+        "pwdata[23]",
+        "pwdata[20]",
+        "pwdata[17]",
+        "gnd",
+        "paddr[0]",
+        "paddr[1]"
+      ], [
+        "pslverr",
+        "penable",
+        "pready",
+        "prdata[1]",
+        "prdata[0]",
+        "prdata[14]",
+        "prdata[15]",
+        "prdata[17]",
+        "prdata[4]",
+        "prdata[18]",
+        "prdata[5]",
+        "prdata[19]",
+        "prdata[6]",
+        "prdata[2]",
+        "prdata[7]",
+        "prdata[20]",
+        "prdata[16]",
+        "prdata[8]",
+        "prdata[21]",
+        "prdata[9]",
+        "prdata[22]",
+        "prdata[23]",
+        "prdata[24]",
+        "prdata[25]",
+        "prdata[10]",
+        "prdata[26]",
+        "prdata[11]",
+        "prdata[27]",
+        "prdata[12]",
+        "prdata[28]",
+        "prdata[13]",
+        "prdata[29]",
+        "prdata[3]",
+        "prdata[30]",
+        "prdata[31]",
+        "paddr[5]",
+        "paddr[3]",
+        "paddr[2]",
+        "presetn",
+        "pclk",
+        "paddr[4]",
+        "vdd",
+        "pwdata[0]",
+        "psel",
+        "paddr[6]",
+        "paddr[7]",
+        "pwrite",
+        "pwdata[14]",
+        "pwdata[12]",
+        "pwdata[11]",
+        "pwdata[30]",
+        "pwdata[10]",
+        "pwdata[9]",
+        "pwdata[27]",
+        "pwdata[8]",
+        "pwdata[7]",
+        "pwdata[5]",
+        "pwdata[6]",
+        "pwdata[2]",
+        "pwdata[21]",
+        "pwdata[4]",
+        "pwdata[3]",
+        "pwdata[18]",
+        "pwdata[1]",
+        "pwdata[15]",
+        "pwdata[31]",
+        "pwdata[28]",
+        "pwdata[25]",
+        "pwdata[22]",
+        "pwdata[29]",
+        "pwdata[19]",
+        "pwdata[24]",
+        "pwdata[16]",
+        "pwdata[26]",
+        "pwdata[13]",
+        "pwdata[23]",
+        "pwdata[20]",
+        "pwdata[17]",
+        "gnd",
+        "paddr[0]",
+        "paddr[1]"
+      ]
+   ]
+  }
+]

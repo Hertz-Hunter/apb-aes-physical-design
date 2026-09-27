@@ -1,0 +1,145 @@
+Vesta static timing analysis, pin-to-register and register-to-pin minimum timing
+
+Top 20 minimum delay paths:
+Path input pin pwdata[26] to _4086_/D delay 141.064 ps
+      0.0 ps  pwdata[26]:          -> _3656_/A
+     70.6 ps      _1701_: _3656_/Y -> _3657_/C
+    134.1 ps       _353_: _3657_/Y -> _4086_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[27] to _4087_/D delay 141.064 ps
+      0.0 ps  pwdata[27]:          -> _3658_/A
+     70.6 ps      _1702_: _3658_/Y -> _3659_/C
+    134.1 ps       _354_: _3659_/Y -> _4087_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[0] to _4060_/D delay 141.064 ps
+      0.0 ps  pwdata[0]:          -> _3604_/A
+     70.6 ps     _1675_: _3604_/Y -> _3605_/C
+    134.1 ps      _327_: _3605_/Y -> _4060_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[3] to _4063_/D delay 141.064 ps
+      0.0 ps  pwdata[3]:          -> _3610_/A
+     70.6 ps     _1678_: _3610_/Y -> _3611_/C
+    134.1 ps      _330_: _3611_/Y -> _4063_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[8] to _4068_/D delay 141.064 ps
+      0.0 ps  pwdata[8]:          -> _3620_/A
+     70.6 ps     _1683_: _3620_/Y -> _3621_/C
+    134.1 ps      _335_: _3621_/Y -> _4068_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[14] to _4074_/D delay 141.064 ps
+      0.0 ps  pwdata[14]:          -> _3632_/A
+     70.6 ps      _1689_: _3632_/Y -> _3633_/C
+    134.1 ps       _341_: _3633_/Y -> _4074_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[19] to _4079_/D delay 141.064 ps
+      0.0 ps  pwdata[19]:          -> _3642_/A
+     70.6 ps      _1694_: _3642_/Y -> _3643_/C
+    134.1 ps       _346_: _3643_/Y -> _4079_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[6] to _4066_/D delay 141.064 ps
+      0.0 ps  pwdata[6]:          -> _3616_/A
+     70.6 ps     _1681_: _3616_/Y -> _3617_/C
+    134.1 ps      _333_: _3617_/Y -> _4066_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[18] to _4078_/D delay 141.064 ps
+      0.0 ps  pwdata[18]:          -> _3640_/A
+     70.6 ps      _1693_: _3640_/Y -> _3641_/C
+    134.1 ps       _345_: _3641_/Y -> _4078_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[1] to _4061_/D delay 141.064 ps
+      0.0 ps  pwdata[1]:          -> _3606_/A
+     70.6 ps     _1676_: _3606_/Y -> _3607_/C
+    134.1 ps      _328_: _3607_/Y -> _4061_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[30] to _4090_/D delay 141.064 ps
+      0.0 ps  pwdata[30]:          -> _3664_/A
+     70.6 ps      _1705_: _3664_/Y -> _3665_/C
+    134.1 ps       _357_: _3665_/Y -> _4090_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[11] to _4071_/D delay 141.064 ps
+      0.0 ps  pwdata[11]:          -> _3626_/A
+     70.6 ps      _1686_: _3626_/Y -> _3627_/C
+    134.1 ps       _338_: _3627_/Y -> _4071_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[20] to _4080_/D delay 141.064 ps
+      0.0 ps  pwdata[20]:          -> _3644_/A
+     70.6 ps      _1695_: _3644_/Y -> _3645_/C
+    134.1 ps       _347_: _3645_/Y -> _4080_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[21] to _4081_/D delay 141.064 ps
+      0.0 ps  pwdata[21]:          -> _3646_/A
+     70.6 ps      _1696_: _3646_/Y -> _3647_/C
+    134.1 ps       _348_: _3647_/Y -> _4081_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[5] to _4065_/D delay 141.064 ps
+      0.0 ps  pwdata[5]:          -> _3614_/A
+     70.6 ps     _1680_: _3614_/Y -> _3615_/C
+    134.1 ps      _332_: _3615_/Y -> _4065_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[9] to _4069_/D delay 141.064 ps
+      0.0 ps  pwdata[9]:          -> _3622_/A
+     70.6 ps     _1684_: _3622_/Y -> _3623_/C
+    134.1 ps      _336_: _3623_/Y -> _4069_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[4] to _4064_/D delay 141.064 ps
+      0.0 ps  pwdata[4]:          -> _3612_/A
+     70.6 ps     _1679_: _3612_/Y -> _3613_/C
+    134.1 ps      _331_: _3613_/Y -> _4064_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[29] to _4089_/D delay 141.064 ps
+      0.0 ps  pwdata[29]:          -> _3662_/A
+     70.6 ps      _1704_: _3662_/Y -> _3663_/C
+    134.1 ps       _356_: _3663_/Y -> _4089_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[28] to _4088_/D delay 141.064 ps
+      0.0 ps  pwdata[28]:          -> _3660_/A
+     70.6 ps      _1703_: _3660_/Y -> _3661_/C
+    134.1 ps       _355_: _3661_/Y -> _4088_/D
+
+   hold at destination = 6.9532
+
+Path input pin pwdata[12] to _4072_/D delay 141.064 ps
+      0.0 ps  pwdata[12]:          -> _3628_/A
+     70.6 ps      _1687_: _3628_/Y -> _3629_/C
+    134.1 ps       _339_: _3629_/Y -> _4072_/D
+
+   hold at destination = 6.9532
+
+-----------------------------------------
+

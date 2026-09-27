@@ -1,0 +1,8 @@
+# Ignore temporary Qflow scratch/intermediate working files
+*.tmp
+*.bak
+core
+*~
+
+# Ignore Netgen build directory if it sits inside your repo
+netgen/
