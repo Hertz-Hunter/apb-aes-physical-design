@@ -27,3 +27,5 @@ RTL-to-GDSII physical implementation of an APB AES core using Qflow on OSU 350nm
 ## Silicon Layout
 
 ![APB AES Core Layout](apb_aes_layout.png)
+
+<img width="938" height="604" alt="image" src="https://github.com/user-attachments/assets/e537d314-3de6-4373-8e5e-cbf45fb0ebcd" />
