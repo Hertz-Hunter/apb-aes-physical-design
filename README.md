@@ -29,3 +29,25 @@ RTL-to-GDSII physical implementation of an APB AES core using Qflow on OSU 350nm
 ![APB AES Core Layout](apb_aes_layout.png)
 
 <img width="938" height="604" alt="image" src="https://github.com/user-attachments/assets/e537d314-3de6-4373-8e5e-cbf45fb0ebcd" />
+
+### Detailed Gate-Level Placement & Interconnect Routing Analysis
+
+This view provides an internal layout capture inside Magic VLSI, illustrating standard cell abutment, cell instances, multi-layer routing, and physical DRC compliance at microscopic dimensions.
+
+#### 1. Standard Cell Placement & Library Mapping
+* **Sequential Elements (`DFFSR`):** D-type flip-flops with asynchronous Set and Reset[cite: 11, 12]. These store round keys, intermediate round states, and bus interface status registers.
+* **Complex Combinational Gates (`OAI21X1`, `AOI22X1`):** High-density OR-AND-Invert and AND-OR-Invert compound cells[cite: 11, 12]. These gates map the Galois Field \(GF(2^8)\) multiplication matrices in MixColumns and the bit-level affine transformations in the SubBytes (S-Box) steps, delivering high logic density and reduced propagation delay compared to discrete AND/OR primitives.
+* **Basic Logic & Buffering (`AND2X2`, `NOR2X`, `BUFX2`):** Discrete 2-input logic cells handle control state decoding, while `BUFX2` buffer cells drive high-fanout nets, manage transition slew rates, and eliminate clock/data hold-time violations[cite: 11, 12].
+* **Cell Abutment:** Standard cells share a uniform height and abut laterally along common power rail tracks (VDD on top, GND on the bottom) to maximize silicon area utilization[cite: 11, 12].
+
+#### 2. Gate Instance Traceability
+* **Instance IDs:** Numbers beneath each cell boundary (such as `_3915_`, `_2121_`, `_1947_`, `_2537_`, `_4050_`, `_insert31`) map directly back to the gate-level structural netlist synthesized by Yosys[cite: 11, 12].
+* **Optimizer Insertions:** Labels with prefixes like `_insert31` represent optimization buffers automatically inserted by the physical placement engine (Graywolf) and routing flow to fix net transition violations or satisfy setup and hold constraints[cite: 11, 12].
+
+#### 3. Interconnect Architecture & Via Connectivity
+* **Active & Poly Layers (Pink/Purple Background):** The underlying active diffusion regions, n-wells/p-wells, and polysilicon gate fingers that construct the PMOS and NMOS transistor pairs inside each logic cell[cite: 11, 12].
+* **Routing Metals (Blue Traces):** Multi-layer metal tracks routed horizontally and vertically by Qrouter to connect cell input/output pins across rows without creating congestion bottlenecks[cite: 11, 12].
+* **Contact Vias (Crossed `X` Squares):** Inter-layer via contacts (Via1, Via2) that bridge vertical and horizontal metal routing lines and link metal layers down to the transistor gate inputs or diffusion contacts[cite: 11, 12].
+
+#### 4. Sign-Off Physical Integrity
+* **DRC Clean Assurance:** The status indicator at the top banner displays an active **`DRC`** state with 0 design rule violations detected, confirming that cell spacing, metal widths, enclosure margins, and via spacing strictly obey the foundry design rules of the OSU 0.35µm process node[cite: 11, 12].
