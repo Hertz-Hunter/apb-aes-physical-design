@@ -15,3 +15,7 @@ RTL-to-GDSII physical implementation of an APB AES core using Qflow on OSU 350nm
 - `backend_deliverables/lvs_comp.out`: Netgen equivalence proof
 - `backend_deliverables/timing_sta.log`: Post-route STA timing report
 - `backend_deliverables/apb_aes_signoff_report.pdf`: 2-page physical sign-off report
+
+## Silicon Layout
+
+![APB AES Core Layout](apb_aes_layout.png)
